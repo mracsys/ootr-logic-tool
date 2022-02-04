@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Hylia Serif Beta';
+    src: url(HyliaSerifBeta-Regular.otf);
+}
+
+.canvas {
+    height: 100vh;
+}
+
+.edgeLabel {
+    user-select: none;
+    pointer-events: auto;
+}
+
+.edgeButton {
+    cursor: pointer;
+}
+
+.edgeButton:hover {
+    box-shadow: 0 0 6px 2px rgb(0 0 0 / 8%);
+}
+
+.edgeNewButton {
+    background: #eee;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    height: 40px;
+    line-height: 1;
+    width: 40px;
+}
+
+.edgeItemButton {
+    background: none;
+    border: none;
+}
+
+.iconDiv {
+    cursor: pointer;
+}
+
+.iconContainer {
+    position: relative;
+}
+
+.iconKeyText {
+    position: absolute;
+    bottom: -8px;
+    left: 16px;
+    font-family: 'Hylia Serif Beta';
+    line-height: 1.43em;
+}
+
+.locationMenuIcon {
+    position: relative;
+}
+
+.locationMenuIcon img {
+    width: 32px;
+    height: 32px;
+}
+
+.locationMenuClear {
+    padding: 16px;
+    margin: 0;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.43;
+    color: #FFFFFF;
+}
+
+.locationMenuClear:hover {
+    background-color: #424242;
+    cursor: pointer;
+}
+
+.locationItemMenu {
+    line-height: 0;
+    padding: 0;
+}
+
+.locationItemMenu ul {
+    padding: 0;
+    background-color: #212121;
+}
+
+.locationItemMenu .iconKeyText {
+    color: #FFFFFF;
+}
+
+.locationItemMenu .iconDiv {
+    padding: 8px;
+    background-color: #212121;
+}
+
+.locationItemMenu .iconDiv:hover {
+    background-color: #424242;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.itemMenuPaper {
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: #212121;
+    width: 432px;
+}
+
+.itemMenuRow {
+    white-space: nowrap;
+    background-color: #212121;
+}
+
+.itemMenuRow div {
+    display: inline-block;
+}
+
+.itemMenuRow .itemMenuClear {
+    width: 432px;
+}
